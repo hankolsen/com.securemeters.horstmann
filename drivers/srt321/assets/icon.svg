@@ -1,7 +1,7 @@
 <svg viewBox="0 0 960 960">
   <style>text { font: bold 28px sans-serif; }</style>
   <rect x="20" y="20" width="900" height="900" stroke="black" stroke-width="30" rx="30" fill="none" />
-  <circle cx="650" cy="650" r="300" stroke="black"  stroke-width="20" fill="none"/>
+  <circle cx="610" cy="610" r="300" stroke="black"  stroke-width="20" fill="none"/>
   <rect x="120" y="20" width="150" height="900" fill="none" stroke="black" stroke-width="20" />
   <rect x="120" y="130" width="150" height="250" fill="none" stroke="black" stroke-width="20" />
   <text x="145" y="90">SRT321</text>
