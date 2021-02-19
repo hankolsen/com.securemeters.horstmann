@@ -15,8 +15,8 @@
     "batteries": ["AAA", "AAA"]
   },
   "images": {
-    "large": "/drivers/srt321/assets/images/large.jpg",
-    "small": "/drivers/srt321/assets/images/small.jpg"
+    "large": "{{driverAssetsPath}}/images/large.jpg",
+    "small": "{{driverAssetsPath}}/images/small.jpg"
   },
   "pair": [
     {
@@ -33,13 +33,13 @@
   ],
   "zwave": {
     "manufacturerId": 89,
-    "productTypeId": [4],
+    "productTypeId": [1],
     "productId": [5],
     "zwaveAllianceProductId": 1740,
     "associationGroups": [1, 2, 3, 4, 5, 6],
     "wakeUpInterval": 1800,
     "learnmode": {
-      "image": "/drivers/srt321/assets/images/learnmode.png",
+      "image": "{{driverAssetsPath}}/images/learnmode.png",
       "instruction": {
         "en": "Put thermostat in installer mode (dip switch 1 On).\n Turn the dial to ‘L’ and press the dial.\n"
       }
