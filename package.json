@@ -1,0 +1,17 @@
+{
+  "name": "com.securemeters.horstmann",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "homey app run",
+    "eslint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-athom": "^2.1.0",
+    "homey": "^2.9.7"
+  },
+  "dependencies": {
+    "homey-zwavedriver": "^2.0.3"
+  }
+}

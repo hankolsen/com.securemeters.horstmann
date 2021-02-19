@@ -1,0 +1,24 @@
+{
+  "id": "com.securemeters.horstmann",
+  "version": "0.0.1",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Secure Meters"
+  },
+  "description": {
+    "en": "Adds support for Secure (previously Horstmann) devices"
+  },
+  "category": [
+    "climate"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.jpg",
+    "small": "/assets/images/small.jpg"
+  },
+  "author": {
+    "name": "Hank de Lang",
+    "email": "hank@hank.se"
+  }
+}
