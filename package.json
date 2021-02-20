@@ -1,11 +1,26 @@
 {
   "name": "com.securemeters.horstmann",
   "version": "0.0.1",
+  "license": "MIT",
   "main": "app.js",
   "scripts": {
     "start": "homey app run",
     "eslint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankolsen/com.securemeters.horstmann.git"
+  },
+  "author": "Hank de Lang",
+  "github": "https://github.com/hankolsen/com.securemeters.horstmann",
+  "keywords": [
+    "homey",
+    "secure",
+    "horstmann",
+    "thermostat",
+    "driver",
+    "home automation"
+  ],
   "devDependencies": {
     "eslint": "^7.20.0",
     "eslint-config-athom": "^2.1.0",

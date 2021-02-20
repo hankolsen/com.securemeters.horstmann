@@ -13,6 +13,20 @@
   "category": [
     "climate"
   ],
+  "tags": {
+    "en": [
+      "horstmann",
+      "secure",
+      "srt321"
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "hankdelang"
+      }
+    }
+  },
   "permissions": [],
   "images": {
     "large": "/assets/images/large.jpg",
@@ -21,6 +35,10 @@
   "author": {
     "name": "Hank de Lang",
     "email": "hank@hank.se"
+  },
+  "source": "https://github.com/hankolsen/com.securemeters.horstmann",
+  "bugs": {
+    "url": "https://github.com/hankolsen/com.securemeters.horstmann/issues"
   },
   "drivers": [
     {
