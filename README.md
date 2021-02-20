@@ -1,5 +1,5 @@
 # Secure Meters
-![by Hank™](https://img.shields.io/badge/by-Hank%E2%84%A2-blue) ![Version](https://img.shields.io/github/v/release/hankolsen/com.securemeters.horstmann?style=flat-square)
+![by Hank™](https://img.shields.io/badge/by-Hank%E2%84%A2-blue) ![Version](https://img.shields.io/github/v/release/hankolsen/com.securemeters.horstmann?style=flat-square) ![MIT License](https://img.shields.io/badge/License-MIT-green)
 
 ![Github Banner](.github/img/banner.jpg)
 
