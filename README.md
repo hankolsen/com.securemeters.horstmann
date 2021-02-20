@@ -18,7 +18,7 @@ This project is Developed and Maintained by **[Hank de Lang](https://github.com/
 ## Support your ~~local~~ remote developer
 If you find this useful you can always by me a coffee:
 
-<a href="https://www.buymeacoffee.com/hankIV" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/hankIV" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
 
 ---
 
