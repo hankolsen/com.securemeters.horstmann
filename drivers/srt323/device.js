@@ -2,6 +2,6 @@
 
 const { ThermostatDevice } = require('../../lib/ThermostatDevice');
 
-class SRT321Device extends ThermostatDevice {}
+class SRT323Device extends ThermostatDevice {}
 
-module.exports = SRT321Device;
+module.exports = SRT323Device;

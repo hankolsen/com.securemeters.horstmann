@@ -1,0 +1,10 @@
+[
+  {
+    "id": "enable_temperature_sensor",
+    "$extends": "enable_temperature_sensor"
+  },
+  {
+    "id": "temperature_delta",
+    "$extends": "temperature_delta"
+  }
+]

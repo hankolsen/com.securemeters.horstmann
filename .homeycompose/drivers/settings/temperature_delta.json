@@ -14,6 +14,6 @@
     "max": 100
   },
   "hint": {
-    "en": "Value is multiplied by 0.1 °С/°F. So 10 means 1°С/°F"
+    "en": "Value is multiplied by 0.1°С. So 10 means 1°С"
   }
 }

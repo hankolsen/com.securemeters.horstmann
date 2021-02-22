@@ -1,0 +1,21 @@
+{
+  "id": "srt323",
+  "name": {
+    "en": "SRT323"
+  },
+  "zwave": {
+    "manufacturerId": 89,
+    "productTypeId": [1],
+    "productId": [4],
+    "zwaveAllianceProductId": 1740,
+    "associationGroups": [1, 2, 3, 4, 5, 6],
+    "wakeUpInterval": 1800,
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/images/learnmode.svg",
+      "instruction": {
+        "en": "Put the thermostat in installer mode by setting DIL switch 1 on the back of the unit to 'ON' position.\n Scroll through the function menu by rotating the dial, select 'L' and press the dial.\n  Now the character 'L' starts flashing.\nAfter successful pairing the display changes to 'LP'."
+      }
+    }
+  },
+  "$extends": ["defaults"]
+}

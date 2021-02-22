@@ -152,6 +152,115 @@
           }
         }
       ]
+    },
+    {
+      "class": "thermostat",
+      "capabilities": [
+        "measure_battery",
+        "alarm_battery",
+        "target_temperature",
+        "measure_temperature"
+      ],
+      "energy": {
+        "batteries": [
+          "AAA",
+          "AAA"
+        ]
+      },
+      "images": {
+        "large": "/drivers/srt323/assets/images/large.jpg",
+        "small": "/drivers/srt323/assets/images/small.jpg"
+      },
+      "pair": [
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "id": "srt323",
+      "name": {
+        "en": "SRT323"
+      },
+      "zwave": {
+        "manufacturerId": 89,
+        "productTypeId": [
+          1
+        ],
+        "productId": [
+          4
+        ],
+        "zwaveAllianceProductId": 1740,
+        "associationGroups": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "wakeUpInterval": 1800,
+        "learnmode": {
+          "image": "/drivers/srt323/assets/images/learnmode.svg",
+          "instruction": {
+            "en": "Put the thermostat in installer mode by setting DIL switch 1 on the back of the unit to 'ON' position.\n Scroll through the function menu by rotating the dial, select 'L' and press the dial.\n  Now the character 'L' starts flashing.\nAfter successful pairing the display changes to 'LP'."
+          }
+        }
+      },
+      "settings": [
+        {
+          "id": "enable_temperature_sensor",
+          "type": "dropdown",
+          "value": "255",
+          "zwave": {
+            "index": 1,
+            "size": 1,
+            "signed": false
+          },
+          "label": {
+            "en": "Temperature Sensor"
+          },
+          "values": [
+            {
+              "id": "0",
+              "label": {
+                "en": "Disabled"
+              }
+            },
+            {
+              "id": "255",
+              "label": {
+                "en": "Enabled"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature_delta",
+          "type": "number",
+          "value": 10,
+          "zwave": {
+            "index": 3,
+            "size": 1
+          },
+          "label": {
+            "en": "Delta Temperature in 0.1° steps"
+          },
+          "attr": {
+            "min": 0,
+            "max": 100
+          },
+          "hint": {
+            "en": "Value is multiplied by 0.1 °С/°F. So 10 means 1°С/°F"
+          }
+        }
+      ]
     }
   ]
 }

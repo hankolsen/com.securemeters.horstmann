@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960px" height="960px" viewBox="0 0 1200 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    .wrapper {
+      transform: translateY(450px);
+    }
+    text {
+      font: bold 54px sans-serif;
+    }
+
+    .box {
+      stroke-width: 20px;
+      stroke: #000;
+      fill: none;
+    }
+
+    @keyframes move {
+      0% {
+        transform: translateY(60px);
+        fill: #D8000C;
+      }
+
+      30% {
+        transform: translateY(60px);
+        fill: #D8000C;
+      }
+
+      40% {
+        transform: translateY(0px);
+        fill: #4F8A10;
+      }
+
+      95% {
+        transform: translateY(0px);
+        fill: #4F8A10;
+      }
+
+      100% {
+        transform: translateY(60px);
+        fill: #D8000C;
+      }
+    }
+
+    #setter {
+      animation: move 3s ease infinite;
+    }
+  </style>
+  <g class="wrapper">
+    <text x="1020" y="100">ON</text>
+    <text x="1020" y="200">OFF</text>
+    <rect class="box" x="10" y="10" width="980" height="230" />
+    <g>
+      <rect class="box" x="50" y="50" width="60" height="150" />
+      <rect id="setter" x="70" y="70" width="20" height="50" />
+    </g>
+    <g>
+      <rect class="box" x="170" y="50" width="60" height="150" />
+      <rect x="190" y="130" width="20" height="50" />
+      <rect class="box" x="290" y="50" width="60" height="150" />
+      <rect x="310" y="130" width="20" height="50" />
+      <rect class="box" x="410" y="50" width="60" height="150" />
+      <rect x="430" y="130" width="20" height="50" />
+      <rect class="box" x="530" y="50" width="60" height="150" />
+      <rect x="550" y="130" width="20" height="50" />
+      <rect class="box" x="650" y="50" width="60" height="150" />
+      <rect x="670" y="130" width="20" height="50" />
+      <rect class="box" x="770" y="50" width="60" height="150" />
+      <rect x="790" y="130" width="20" height="50" />
+      <rect class="box" x="890" y="50" width="60" height="150" />
+      <rect x="910" y="130" width="20" height="50" />
+    </g>
+  </g>
+</svg>
