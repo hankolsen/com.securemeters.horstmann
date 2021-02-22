@@ -34,14 +34,14 @@
   "zwave": {
     "manufacturerId": 89,
     "productTypeId": [1],
-    "productId": [5],
+    "productId": [3, 5],
     "zwaveAllianceProductId": 1740,
     "associationGroups": [1, 2, 3, 4, 5, 6],
     "wakeUpInterval": 1800,
     "learnmode": {
       "image": "{{driverAssetsPath}}/images/learnmode.png",
       "instruction": {
-        "en": "Put thermostat in installer mode (dip switch 1 On).\n Turn the dial to ‘L’ and press the dial.\n"
+        "en": "Put thermostat in installer mode by setting DIL switch 1 on the back of the unit to 'ON' position.\n Scroll through the function menu by rotating the dial, select 'L' and press the dial.\n  Now the character 'L' starts flashing.\nAfter successful pairing the display changes to 'LP'."
       }
     }
   },

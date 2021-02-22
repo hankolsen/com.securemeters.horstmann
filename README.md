@@ -7,7 +7,7 @@ Adds support for Secure (previously Horstmann) devices to Homey.
 
 ## Supported Devices
 
-- SRT321 http://products.z-wavealliance.org/products/115
+- SRT321 - [SRT-321 (Thermostat-HVAC)](https://products.z-wavealliance.org/products/1563), [Secure SRT321 Zwave Stat (Tx)](http://products.z-wavealliance.org/products/115) 
 
 ## License
 This project is licensed under MIT - https://opensource.org/licenses/MIT
