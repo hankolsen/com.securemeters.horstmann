@@ -1,0 +1,9 @@
+.git
+.gitignore
+.gitmodules
+.github
+.idea
+.DS_Store
+
+.eslintrc
+docs

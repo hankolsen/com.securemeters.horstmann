@@ -4,10 +4,6 @@
     "$extends": "enable_temperature_sensor"
   },
   {
-    "id": "temperature_unit",
-    "$extends": "temperature_unit"
-  },
-  {
     "id": "temperature_delta",
     "$extends": "temperature_delta"
   }

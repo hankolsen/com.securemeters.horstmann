@@ -47,8 +47,7 @@
         "measure_battery",
         "alarm_battery",
         "target_temperature",
-        "measure_temperature",
-        "thermostat_mode"
+        "measure_temperature"
       ],
       "energy": {
         "batteries": [
@@ -106,38 +105,27 @@
       "settings": [
         {
           "id": "enable_temperature_sensor",
-          "type": "checkbox",
-          "value": true,
+          "type": "dropdown",
+          "value": "255",
           "zwave": {
             "index": 1,
-            "size": 2
+            "size": 1,
+            "signed": false
           },
           "label": {
-            "en": "Enable Temperature Sensor"
-          }
-        },
-        {
-          "id": "temperature_unit",
-          "type": "dropdown",
-          "value": "celsius",
-          "zwave": {
-            "index": 2,
-            "size": 2
-          },
-          "label": {
-            "en": "Temperature Unit"
+            "en": "Temperature Sensor"
           },
           "values": [
             {
-              "id": "celsius",
+              "id": "0",
               "label": {
-                "en": "Celsius"
+                "en": "Disabled"
               }
             },
             {
-              "id": "farhenheit",
+              "id": "255",
               "label": {
-                "en": "Fahrenheit"
+                "en": "Enabled"
               }
             }
           ]
