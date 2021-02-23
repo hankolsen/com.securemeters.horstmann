@@ -3,34 +3,6 @@
   "name": {
     "en": "SRT321"
   },
-  "class": "thermostat",
-  "capabilities": [
-    "measure_battery",
-    "alarm_battery",
-    "target_temperature",
-    "measure_temperature",
-    "thermostat_mode"
-  ],
-  "energy": {
-    "batteries": ["AAA", "AAA"]
-  },
-  "images": {
-    "large": "{{driverAssetsPath}}/images/large.jpg",
-    "small": "{{driverAssetsPath}}/images/small.jpg"
-  },
-  "pair": [
-    {
-      "id": "list_devices",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_devices"
-      }
-    },
-    {
-      "id": "add_devices",
-      "template": "add_devices"
-    }
-  ],
   "zwave": {
     "manufacturerId": 89,
     "productTypeId": [1],
@@ -41,67 +13,9 @@
     "learnmode": {
       "image": "{{driverAssetsPath}}/images/learnmode.png",
       "instruction": {
-        "en": "Put thermostat in installer mode by setting DIL switch 1 on the back of the unit to 'ON' position.\n Scroll through the function menu by rotating the dial, select 'L' and press the dial.\n  Now the character 'L' starts flashing.\nAfter successful pairing the display changes to 'LP'."
+        "en": "Put the thermostat in installer mode by setting DIL switch 1 on the back of the unit to 'ON' position.\n Scroll through the function menu by rotating the dial, select 'L' and press the dial.\n  Now the character 'L' starts flashing.\nAfter successful pairing the display changes to 'LP'."
       }
     }
   },
-  "settings": [
-    {
-      "id": "enable_temperature_sensor",
-      "type": "checkbox",
-      "value": true,
-      "zwave": {
-        "index": 1,
-        "size": 2
-      },
-      "label": {
-        "en": "Enable Temperature Sensor"
-      }
-    },
-    {
-      "id": "temperature_unit",
-      "type": "dropdown",
-      "value": "celsius",
-      "zwave": {
-        "index": 2,
-        "size": 2
-      },
-      "label": {
-        "en": "Temperature Unit"
-      },
-      "values": [
-        {
-          "id": "celsius",
-          "label": {
-            "en": "Celsius"
-          }
-        },
-        {
-          "id": "farhenheit",
-          "label": {
-            "en": "Fahrenheit"
-          }
-        }
-      ]
-    },
-    {
-      "id": "temperature_delta",
-      "type": "number",
-      "value": 10,
-      "zwave": {
-        "index": 3,
-        "size": 1
-      },
-      "label": {
-        "en": "Delta Temperature in 0.1° steps"
-      },
-      "attr": {
-        "min": 0,
-        "max": 100
-      },
-      "hint": {
-        "en": "Value is multiplied by 0.1 °С/°F.   So 10 means 1°С/°F"
-      }
-    }
-  ]
+  "$extends": ["defaults"]
 }

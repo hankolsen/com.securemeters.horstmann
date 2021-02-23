@@ -1,0 +1,19 @@
+{
+  "id": "temperature_delta",
+  "type": "number",
+  "value": 10,
+  "zwave": {
+    "index": 3,
+    "size": 1
+  },
+  "label": {
+    "en": "Delta Temperature in 0.1° steps"
+  },
+  "attr": {
+    "min": 0,
+    "max": 100
+  },
+  "hint": {
+    "en": "Value is multiplied by 0.1 °С/°F. So 10 means 1°С/°F"
+  }
+}

@@ -42,10 +42,6 @@
   },
   "drivers": [
     {
-      "id": "srt321",
-      "name": {
-        "en": "SRT321"
-      },
       "class": "thermostat",
       "capabilities": [
         "measure_battery",
@@ -77,12 +73,17 @@
           "template": "add_devices"
         }
       ],
+      "id": "srt321",
+      "name": {
+        "en": "SRT321"
+      },
       "zwave": {
         "manufacturerId": 89,
         "productTypeId": [
           1
         ],
         "productId": [
+          3,
           5
         ],
         "zwaveAllianceProductId": 1740,
@@ -98,7 +99,7 @@
         "learnmode": {
           "image": "/drivers/srt321/assets/images/learnmode.png",
           "instruction": {
-            "en": "Put thermostat in installer mode (dip switch 1 On).\n Turn the dial to ‘L’ and press the dial.\n"
+            "en": "Put the thermostat in installer mode by setting DIL switch 1 on the back of the unit to 'ON' position.\n Scroll through the function menu by rotating the dial, select 'L' and press the dial.\n  Now the character 'L' starts flashing.\nAfter successful pairing the display changes to 'LP'."
           }
         }
       },
@@ -157,7 +158,7 @@
             "max": 100
           },
           "hint": {
-            "en": "Value is multiplied by 0.1 °С/°F.   So 10 means 1°С/°F"
+            "en": "Value is multiplied by 0.1 °С/°F. So 10 means 1°С/°F"
           }
         }
       ]

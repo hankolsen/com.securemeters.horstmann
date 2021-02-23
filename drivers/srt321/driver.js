@@ -2,7 +2,7 @@
 
 const Homey = require('homey');
 
-module.exports = class SRT321Driver extends Homey.Driver {
+class SRT321Driver extends Homey.Driver {
 
   async onPairListDevices() {
     return [
@@ -15,4 +15,6 @@ module.exports = class SRT321Driver extends Homey.Driver {
     ];
   }
 
-};
+}
+
+module.exports = SRT321Driver;

@@ -1,0 +1,12 @@
+{
+  "id": "enable_temperature_sensor",
+  "type": "checkbox",
+  "value": true,
+  "zwave": {
+    "index": 1,
+    "size": 2
+  },
+  "label": {
+    "en": "Enable Temperature Sensor"
+  }
+}
