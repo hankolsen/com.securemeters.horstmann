@@ -3,6 +3,7 @@
 .gitmodules
 .github
 .idea
+*.iml
 .DS_Store
 
 .eslintrc
