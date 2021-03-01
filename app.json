@@ -249,6 +249,16 @@
           }
         },
         "multiChannelNodes": {
+          "1": {
+            "class": "sensor",
+            "capabilities": [
+              "measure_temperature"
+            ],
+            "icon": "/drivers/ses303/assets/icon-multichannelnode.svg",
+            "name": {
+              "en": "MultiChannel device 1"
+            }
+          },
           "2": {
             "class": "sensor",
             "capabilities": [

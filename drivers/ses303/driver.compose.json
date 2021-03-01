@@ -22,6 +22,14 @@
       }
     },
     "multiChannelNodes": {
+      "1": {
+        "class": "sensor",
+        "capabilities": ["measure_temperature"],
+        "icon": "{{driverAssetsPath}}/icon-multichannelnode.svg",
+        "name": {
+          "en": "MultiChannel device 1"
+        }
+      },
       "2": {
         "class": "sensor",
         "capabilities": ["measure_temperature"],
