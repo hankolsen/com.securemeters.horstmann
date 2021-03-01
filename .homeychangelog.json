@@ -16,5 +16,8 @@
   },
   "0.2.4": {
     "en": "Add support for SES302 and SES303"
+  },
+  "0.2.5": {
+    "en": "Fix wrong productTypeId for SES302 and SES303. Update icons for the same devices"
   }
 }
