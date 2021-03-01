@@ -1,5 +1,11 @@
 {
   "0.0.1": {
     "en": "First release with support for SRT321"
+  },
+  "0.2.0": {
+    "en": "Support Homey v5 with update to SDK v3"
+  },
+  "0.2.1": {
+    "en": "Add homeyCommunityTopicId "
   }
 }

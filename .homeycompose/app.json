@@ -1,6 +1,6 @@
 {
   "id": "com.horstmann",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
@@ -10,11 +10,16 @@
   "description": {
     "en": "Adds support for Secure (previously Horstmann) devices"
   },
+  "homeyCommunityTopicId": 8693,
   "category": [
     "climate"
   ],
   "tags": {
-    "en": ["horstmann", "secure", "srt321"]
+    "en": [
+      "horstmann",
+      "secure",
+      "srt321"
+    ]
   },
   "contributing": {
     "donate": {
