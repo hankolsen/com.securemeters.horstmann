@@ -12,6 +12,7 @@
     "productTypeId": [13],
     "productId": [2],
     "zwaveAllianceProductId": 1740,
+    "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1240/SES%20302%20and%20303%20TH%20Sensors%20User%20Installation%20Manual,%20(Secure%20Controls%20UK%20Ltd)%20BGX501-923-R02.pdf",
     "associationGroups": [1, 2, 3, 4, 5, 6],
     "wakeUpInterval": 1800,
     "learnmode": {
