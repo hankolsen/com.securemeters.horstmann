@@ -1,11 +1,12 @@
 {
-  "id": "com.securemeters.horstmann",
-  "version": "0.0.1",
+  "id": "com.horstmann",
+  "version": "0.2.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
     "en": "Secure Meters"
   },
+  "brandColor": "#7e1f56",
   "description": {
     "en": "Adds support for Secure (previously Horstmann) devices"
   },
