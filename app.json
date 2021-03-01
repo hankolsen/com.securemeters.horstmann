@@ -19,6 +19,7 @@
     "en": [
       "horstmann",
       "secure",
+      "ses302",
       "srt321",
       "srt323"
     ]
@@ -44,6 +45,148 @@
     "url": "https://github.com/hankolsen/com.securemeters.horstmann/issues"
   },
   "drivers": [
+    {
+      "class": "sensor",
+      "capabilities": [
+        "measure_battery",
+        "measure_temperature",
+        "measure_humidity"
+      ],
+      "energy": {
+        "batteries": [
+          "AA",
+          "AA"
+        ]
+      },
+      "images": {
+        "large": "/drivers/ses302/assets/images/large.jpg",
+        "small": "/drivers/ses302/assets/images/small.jpg"
+      },
+      "pair": [
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "id": "ses302",
+      "name": {
+        "en": "SES302"
+      },
+      "zwave": {
+        "manufacturerId": 89,
+        "productTypeId": [
+          14
+        ],
+        "productId": [
+          2
+        ],
+        "zwaveAllianceProductId": 1740,
+        "associationGroups": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "wakeUpInterval": 1800,
+        "learnmode": {
+          "image": "/drivers/ses302/assets/images/learnmode.jpg",
+          "instruction": {
+            "en": "Press the button, hold and release after 1 second.\nOn successful inclusion the LED will flash 2 times. The total process can take up to 20 seconds.\nIf the LED flashes 4-times this means that the inclusion process has failed."
+          }
+        }
+      },
+      "settings": [
+        {
+          "id": "sensor_temperature_delta",
+          "type": "number",
+          "value": 0,
+          "zwave": {
+            "index": 1,
+            "size": 1,
+            "signed": false
+          },
+          "attr": {
+            "min": 0,
+            "max": 255
+          },
+          "label": {
+            "en": "Delta Temperature (°C)"
+          },
+          "hint": {
+            "en": "Configure the delta based temperature report Unit: 0.1 °C.\nTo configure Delta temperature reporting to 2 °C. The value need to configure is 20.\n"
+          }
+        },
+        {
+          "id": "sensor_temperature_report_interval",
+          "type": "number",
+          "value": 5,
+          "zwave": {
+            "index": 2,
+            "size": 1,
+            "signed": false
+          },
+          "attr": {
+            "min": 0,
+            "max": 255
+          },
+          "label": {
+            "en": "Temperature Reporting Interval (minutes)"
+          },
+          "hint": {
+            "en": "Configure the time interval for temperature reporting.\nValue in minutes\n"
+          }
+        },
+        {
+          "id": "sensor_humidity_delta",
+          "type": "number",
+          "value": 5,
+          "zwave": {
+            "index": 3,
+            "size": 1,
+            "signed": false
+          },
+          "attr": {
+            "min": 0,
+            "max": 255
+          },
+          "label": {
+            "en": "Delta Humidity (%)"
+          },
+          "hint": {
+            "en": "Configure the delta based humidity report unit: 0.1 %.\nTo configure Delta humidity reporting to 2 %Rh. The value to configure is 20.\n"
+          }
+        },
+        {
+          "id": "sensor_humidity_report_interval",
+          "type": "number",
+          "value": 5,
+          "zwave": {
+            "index": 4,
+            "size": 1,
+            "signed": false
+          },
+          "attr": {
+            "min": 0,
+            "max": 255
+          },
+          "label": {
+            "en": "Humidity Reporting Interval (minutes)"
+          },
+          "hint": {
+            "en": "Configure the time interval for humidity reporting.\nValue in minutes\n"
+          }
+        }
+      ]
+    },
     {
       "class": "thermostat",
       "capabilities": [

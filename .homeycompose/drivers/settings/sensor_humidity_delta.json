@@ -1,0 +1,20 @@
+{
+  "id": "sensor_humidity_delta",
+  "type": "number",
+  "value": 5,
+  "zwave": {
+    "index": 3,
+    "size": 1,
+    "signed": false
+  },
+  "attr": {
+    "min": 0,
+    "max": 255
+  },
+  "label": {
+    "en": "Delta Humidity (%)"
+  },
+  "hint": {
+    "en": "Configure the delta based humidity report unit: 0.1 %.\nTo configure Delta humidity reporting to 2 %Rh. The value to configure is 20.\n"
+  }
+}

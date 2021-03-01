@@ -1,0 +1,20 @@
+{
+  "id": "sensor_temperature_delta",
+  "type": "number",
+  "value": 0,
+  "zwave": {
+    "index": 1,
+    "size": 1,
+    "signed": false
+  },
+  "attr": {
+    "min": 0,
+    "max": 255
+  },
+  "label": {
+    "en": "Delta Temperature (°C)"
+  },
+  "hint": {
+    "en": "Configure the delta based temperature report Unit: 0.1 °C.\nTo configure Delta temperature reporting to 2 °C. The value need to configure is 20.\n"
+  }
+}

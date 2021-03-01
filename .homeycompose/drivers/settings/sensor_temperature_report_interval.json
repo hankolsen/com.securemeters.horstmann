@@ -1,0 +1,20 @@
+{
+  "id": "sensor_temperature_report_interval",
+  "type": "number",
+  "value": 5,
+  "zwave": {
+    "index": 2,
+    "size": 1,
+    "signed": false
+  },
+  "attr": {
+    "min": 0,
+    "max": 255
+  },
+  "label": {
+    "en": "Temperature Reporting Interval (minutes)"
+  },
+  "hint": {
+    "en": "Configure the time interval for temperature reporting.\nValue in minutes\n"
+  }
+}

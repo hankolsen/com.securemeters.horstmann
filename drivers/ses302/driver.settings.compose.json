@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sensor_temperature_delta",
+    "$extends": "sensor_temperature_delta"
+  },
+  {
+    "id": "sensor_temperature_report_interval",
+    "$extends": "sensor_temperature_report_interval"
+  },
+  {
+    "id": "sensor_humidity_delta",
+    "$extends": "sensor_humidity_delta"
+  },
+  {
+    "id": "sensor_humidity_report_interval",
+    "$extends": "sensor_humidity_report_interval"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "id": "sensor_humidity_report_interval",
+  "type": "number",
+  "value": 5,
+  "zwave": {
+    "index": 4,
+    "size": 1,
+    "signed": false
+  },
+  "attr": {
+    "min": 0,
+    "max": 255
+  },
+  "label": {
+    "en": "Humidity Reporting Interval (minutes)"
+  },
+  "hint": {
+    "en": "Configure the time interval for humidity reporting.\nValue in minutes\n"
+  }
+}
