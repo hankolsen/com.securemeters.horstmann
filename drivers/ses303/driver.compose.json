@@ -1,0 +1,30 @@
+{
+  "id": "ses303",
+  "name": {
+    "en": "SES303"
+  },
+  "energy": {
+    "batteries": ["AA", "AA"]
+  },
+  "class": "sensor",
+  "zwave": {
+    "manufacturerId": 89,
+    "productTypeId": [14],
+    "productId": [3],
+    "zwaveAllianceProductId": 1740,
+    "associationGroups": [1, 2, 3, 4, 5, 6],
+    "wakeUpInterval": 1800,
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/images/learnmode.jpg",
+      "instruction": {
+        "en": "Press the button, hold and release after 1 second.\nOn successful inclusion the LED will flash 2 times. The total process can take up to 20 seconds.\nIf the LED flashes 4-times this means that the inclusion process has failed."
+      }
+    }
+  },
+  "capabilities": [
+    "measure_battery",
+    "measure_temperature",
+    "measure_humidity"
+  ],
+  "$extends": ["defaults"]
+}
