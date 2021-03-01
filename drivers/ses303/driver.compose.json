@@ -9,7 +9,7 @@
   "class": "sensor",
   "zwave": {
     "manufacturerId": 89,
-    "productTypeId": [14],
+    "productTypeId": [13],
     "productId": [3],
     "zwaveAllianceProductId": 1740,
     "associationGroups": [1, 2, 3, 4, 5, 6],
