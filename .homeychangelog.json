@@ -19,5 +19,11 @@
   },
   "0.2.5": {
     "en": "Fix wrong productTypeId for SES302 and SES303. Update icons for the same devices"
+  },
+  "0.2.6": {
+    "en": "Add support for SSR303"
+  },
+  "0.2.7": {
+    "en": "Add support for SSR303"
   }
 }
