@@ -25,5 +25,8 @@
   },
   "0.2.7": {
     "en": "Add support for SSR303"
+  },
+  "0.2.8": {
+    "en": "Fixed issue with broken imports"
   }
 }
