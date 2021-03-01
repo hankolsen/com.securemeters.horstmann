@@ -1,7 +1,7 @@
 'use strict';
 
-const { TemperaturSensor } = require('../../lib/TemperaturSensor');
+const { TemperatureSensor } = require('../../lib/TemperatureSensor');
 
-class SES303Device extends TemperaturSensor {}
+class SES303Device extends TemperatureSensor {}
 
 module.exports = SES303Device;
