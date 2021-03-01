@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.horstmann",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
@@ -148,7 +148,7 @@
             "max": 100
           },
           "hint": {
-            "en": "Value is multiplied by 0.1 °С/°F. So 10 means 1°С/°F"
+            "en": "Value is multiplied by 0.1°С. So 10 means 1°С"
           }
         }
       ]
@@ -257,7 +257,7 @@
             "max": 100
           },
           "hint": {
-            "en": "Value is multiplied by 0.1 °С/°F. So 10 means 1°С/°F"
+            "en": "Value is multiplied by 0.1°С. So 10 means 1°С"
           }
         }
       ]
