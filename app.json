@@ -254,7 +254,7 @@
             "capabilities": [
               "measure_temperature"
             ],
-            "icon": "/drivers/ses303/assets/icon-multichannelnode.svg",
+            "icon": "/drivers/ses303/assets/icon-multichannelnode-1.svg",
             "name": {
               "en": "MultiChannel device 1"
             }
@@ -264,7 +264,7 @@
             "capabilities": [
               "measure_temperature"
             ],
-            "icon": "/drivers/ses303/assets/icon-multichannelnode.svg",
+            "icon": "/drivers/ses303/assets/icon-multichannelnode-2.svg",
             "name": {
               "en": "MultiChannel device 2"
             }
@@ -274,7 +274,7 @@
             "capabilities": [
               "measure_temperature"
             ],
-            "icon": "/drivers/ses303/assets/icon-multichannelnode.svg",
+            "icon": "/drivers/ses303/assets/icon-multichannelnode-3.svg",
             "name": {
               "en": "MultiChannel device 3"
             }
@@ -284,7 +284,7 @@
             "capabilities": [
               "measure_temperature"
             ],
-            "icon": "/drivers/ses303/assets/icon-multichannelnode.svg",
+            "icon": "/drivers/ses303/assets/icon-multichannelnode-4.svg",
             "name": {
               "en": "MultiChannel device 4"
             }
