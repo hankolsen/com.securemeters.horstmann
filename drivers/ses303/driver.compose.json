@@ -25,7 +25,7 @@
       "1": {
         "class": "sensor",
         "capabilities": ["measure_temperature"],
-        "icon": "{{driverAssetsPath}}/icon-multichannelnode.svg",
+        "icon": "{{driverAssetsPath}}/icon-multichannelnode-1.svg",
         "name": {
           "en": "MultiChannel device 1"
         }
@@ -33,7 +33,7 @@
       "2": {
         "class": "sensor",
         "capabilities": ["measure_temperature"],
-        "icon": "{{driverAssetsPath}}/icon-multichannelnode.svg",
+        "icon": "{{driverAssetsPath}}/icon-multichannelnode-2.svg",
         "name": {
           "en": "MultiChannel device 2"
         }
@@ -41,7 +41,7 @@
       "3": {
         "class": "sensor",
         "capabilities": ["measure_temperature"],
-        "icon": "{{driverAssetsPath}}/icon-multichannelnode.svg",
+        "icon": "{{driverAssetsPath}}/icon-multichannelnode-3.svg",
         "name": {
           "en": "MultiChannel device 3"
         }
@@ -49,7 +49,7 @@
       "4": {
         "class": "sensor",
         "capabilities": ["measure_temperature"],
-        "icon": "{{driverAssetsPath}}/icon-multichannelnode.svg",
+        "icon": "{{driverAssetsPath}}/icon-multichannelnode-4.svg",
         "name": {
           "en": "MultiChannel device 4"
         }
