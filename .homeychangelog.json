@@ -28,5 +28,8 @@
   },
   "0.2.8": {
     "en": "Fixed issue with broken imports"
+  },
+  "0.2.9": {
+    "en": "Add support for SES002"
   }
 }
