@@ -31,5 +31,8 @@
   },
   "0.2.9": {
     "en": "Add support for SES002"
+  },
+  "0.2.10": {
+    "en": "Update SSR303"
   }
 }
