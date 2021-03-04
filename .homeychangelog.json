@@ -31,5 +31,8 @@
   },
   "0.2.9": {
     "en": "Add support for SES002"
+  },
+  "0.2.11": {
+    "en": "Update icons for SES303 multichannel nodes"
   }
 }
