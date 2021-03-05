@@ -34,5 +34,8 @@
   },
   "0.2.11": {
     "en": "Update icons for SES303 multichannel nodes"
+  },
+  "0.2.12": {
+    "en": "Add more logging"
   }
 }
