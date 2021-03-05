@@ -46,9 +46,9 @@
     }
   </style>
   <g class="wrapper">
-    <text x="1020" y="100">ON</text>
-    <text x="1020" y="200">OFF</text>
-    <rect class="box" x="10" y="10" width="980" height="230" />
+    <text x="430" y="100">ON</text>
+    <text x="430" y="200">OFF</text>
+    <rect class="box" x="10" y="10" width="380" height="230" />
     <g>
       <rect class="box" x="50" y="50" width="60" height="150" />
       <rect id="setter" x="70" y="70" width="20" height="50" />
@@ -58,16 +58,6 @@
       <rect x="190" y="130" width="20" height="50" />
       <rect class="box" x="290" y="50" width="60" height="150" />
       <rect x="310" y="130" width="20" height="50" />
-      <rect class="box" x="410" y="50" width="60" height="150" />
-      <rect x="430" y="130" width="20" height="50" />
-      <rect class="box" x="530" y="50" width="60" height="150" />
-      <rect x="550" y="130" width="20" height="50" />
-      <rect class="box" x="650" y="50" width="60" height="150" />
-      <rect x="670" y="130" width="20" height="50" />
-      <rect class="box" x="770" y="50" width="60" height="150" />
-      <rect x="790" y="130" width="20" height="50" />
-      <rect class="box" x="890" y="50" width="60" height="150" />
-      <rect x="910" y="130" width="20" height="50" />
     </g>
   </g>
 </svg>

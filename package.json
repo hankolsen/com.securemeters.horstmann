@@ -24,7 +24,7 @@
   "devDependencies": {
     "eslint": "^7.20.0",
     "eslint-config-athom": "^2.1.0",
-    "homey": "^2.9.7"
+    "homey": "^2.10.0"
   },
   "dependencies": {
     "homey-zwavedriver": "^2.1.0"
