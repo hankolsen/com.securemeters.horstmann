@@ -37,5 +37,8 @@
   },
   "0.2.12": {
     "en": "Add more logging"
+  },
+  "0.2.13": {
+    "en": "Add more SRT323 logging"
   }
 }
