@@ -11,7 +11,7 @@
     "productId": [5],
     "zwaveAllianceProductId": 1740,
     "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1618/SSR%20303%20User%20Manual.pdf",
-    "associationGroups": [1, 2, 3],
+    "associationGroups": [1],
     "wakeUpInterval": 1800,
     "learnmode": {
       "image": "{{driverAssetsPath}}/images/learnmode.svg",

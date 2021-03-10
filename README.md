@@ -13,7 +13,7 @@ Adds support for Secure (previously Horstmann) devices to Homey.
 - [SES 303](https://products.z-wavealliance.org/products/1175) - [Manual](https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1240/SES%20302%20and%20303%20TH%20Sensors%20User%20Installation%20Manual,%20(Secure%20Controls%20UK%20Ltd)%20BGX501-923-R02.pdf)
 - [SRT 323 Thermostat](https://products.z-wavealliance.org/products/1241)
 - [SSR 303 Power Switch](https://products.z-wavealliance.org/products/1618) - [Manual](https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1618/SSR%20303%20User%20Manual.pdf)
-- [SES202](http://z-wavelab.com/index.php?route=product/product&product_id=532) attached to SES303 - [Manual](http://z-wavelab.com/image/catalog/PDF/SES002%20SES003.pdf)
+- [SES 002](http://z-wavelab.com/index.php?route=product/product&product_id=532) attached to SES 303 - [Manual](http://z-wavelab.com/image/catalog/PDF/SES002%20SES003.pdf)
 
 ## License
 This project is licensed under MIT - https://opensource.org/licenses/MIT
