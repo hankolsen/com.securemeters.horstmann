@@ -40,5 +40,8 @@
   },
   "0.2.13": {
     "en": "Add more SRT323 logging"
+  },
+  "0.2.14": {
+    "en": "Update SSR303 driver"
   }
 }
