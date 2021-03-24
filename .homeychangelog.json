@@ -31,5 +31,17 @@
   },
   "0.2.9": {
     "en": "Add support for SES002"
+  },
+  "0.2.11": {
+    "en": "Update icons for SES303 multichannel nodes"
+  },
+  "0.2.12": {
+    "en": "Add more logging"
+  },
+  "0.2.13": {
+    "en": "Add more SRT323 logging"
+  },
+  "0.2.14": {
+    "en": "Update SSR303 driver"
   }
 }

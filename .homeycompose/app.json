@@ -1,6 +1,6 @@
 {
   "id": "com.horstmann",
-  "version": "0.2.9",
+  "version": "0.2.14",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
@@ -18,10 +18,12 @@
     "en": [
       "horstmann",
       "secure",
+      "ses202",
       "ses302",
       "ses303",
       "srt321",
-      "srt323"
+      "srt323",
+      "ssr303"
     ]
   },
   "contributing": {
