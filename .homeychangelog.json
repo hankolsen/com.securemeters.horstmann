@@ -43,5 +43,8 @@
   },
   "0.2.14": {
     "en": "Update SSR303 driver"
+  },
+  "0.2.15": {
+    "en": "Reverted some SSR303 changes"
   }
 }
