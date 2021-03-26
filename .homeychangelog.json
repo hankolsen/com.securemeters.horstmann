@@ -52,5 +52,8 @@
   },
   "0.3.2": {
     "en": "Updated SSR303 multichannel definition"
+  },
+  "0.3.3": {
+    "en": "Update SSR303 multichannel"
   }
 }
