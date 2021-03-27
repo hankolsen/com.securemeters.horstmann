@@ -22,9 +22,9 @@
     "home automation"
   ],
   "devDependencies": {
-    "eslint": "^7.20.0",
+    "eslint": "^7.23.0",
     "eslint-config-athom": "^2.1.0",
-    "homey": "^2.10.0"
+    "homey": "^2.13.1"
   },
   "dependencies": {
     "homey-zwavedriver": "^2.1.0"
