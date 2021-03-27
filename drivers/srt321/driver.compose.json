@@ -26,7 +26,7 @@
       },
       "3": {
         "hint": {
-          "en": "Switch Control"
+          "en": "Add other device ID's here that should be controlled by the thermostat"
         }
       },
       "4": {
