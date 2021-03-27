@@ -57,12 +57,6 @@
         "measure_temperature",
         "measure_humidity"
       ],
-      "energy": {
-        "batteries": [
-          "AA",
-          "AA"
-        ]
-      },
       "images": {
         "large": "/drivers/ses302/assets/images/large.jpg",
         "small": "/drivers/ses302/assets/images/small.jpg"
@@ -83,6 +77,12 @@
       "id": "ses302",
       "name": {
         "en": "SES302"
+      },
+      "energy": {
+        "batteries": [
+          "AA",
+          "AA"
+        ]
       },
       "zwave": {
         "manufacturerId": 89,
@@ -200,12 +200,6 @@
         "measure_temperature",
         "measure_humidity"
       ],
-      "energy": {
-        "batteries": [
-          "AA",
-          "AA"
-        ]
-      },
       "images": {
         "large": "/drivers/ses303/assets/images/large.jpg",
         "small": "/drivers/ses303/assets/images/small.jpg"
@@ -226,6 +220,12 @@
       "id": "ses303",
       "name": {
         "en": "SES303"
+      },
+      "energy": {
+        "batteries": [
+          "AA",
+          "AA"
+        ]
       },
       "zwave": {
         "manufacturerId": 89,
@@ -386,12 +386,6 @@
         "target_temperature",
         "measure_temperature"
       ],
-      "energy": {
-        "batteries": [
-          "AAA",
-          "AAA"
-        ]
-      },
       "images": {
         "large": "/drivers/srt321/assets/images/large.jpg",
         "small": "/drivers/srt321/assets/images/small.jpg"
@@ -412,6 +406,12 @@
       "id": "srt321",
       "name": {
         "en": "SRT321 / HRT4-ZW"
+      },
+      "energy": {
+        "batteries": [
+          "AAA",
+          "AAA"
+        ]
       },
       "zwave": {
         "manufacturerId": 89,
@@ -497,12 +497,6 @@
         "target_temperature",
         "measure_temperature"
       ],
-      "energy": {
-        "batteries": [
-          "AAA",
-          "AAA"
-        ]
-      },
       "images": {
         "large": "/drivers/srt323/assets/images/large.jpg",
         "small": "/drivers/srt323/assets/images/small.jpg"
@@ -523,6 +517,12 @@
       "id": "srt323",
       "name": {
         "en": "SRT323"
+      },
+      "energy": {
+        "batteries": [
+          "AAA",
+          "AAA"
+        ]
       },
       "zwave": {
         "manufacturerId": 89,
@@ -604,12 +604,6 @@
       "capabilities": [
         "onoff"
       ],
-      "energy": {
-        "batteries": [
-          "AAA",
-          "AAA"
-        ]
-      },
       "images": {
         "large": "/drivers/ssr303/assets/images/large.jpg",
         "small": "/drivers/ssr303/assets/images/small.jpg"
