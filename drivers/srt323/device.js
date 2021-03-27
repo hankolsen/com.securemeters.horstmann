@@ -24,16 +24,6 @@ class SRT323Device extends ZwaveDevice {
     await this.configurationSet({ index: 1, size: 1, signed: false }, 255);
   }
 
-  onAdded() {
-    this.log('SRT323Device Added');
-    super.onAdded();
-  }
-
-  onDeleted() {
-    this.log('SRT323Device Deleted');
-    return super.onDeleted();
-  }
-
 }
 
 module.exports = SRT323Device;
