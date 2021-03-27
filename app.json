@@ -24,7 +24,9 @@
       "ses303",
       "srt321",
       "srt323",
-      "ssr303"
+      "ssr303",
+      "HRT4-ZW",
+      "ASR-ZW"
     ]
   },
   "contributing": {
@@ -409,7 +411,7 @@
       ],
       "id": "srt321",
       "name": {
-        "en": "SRT321"
+        "en": "SRT321 / HRT4-ZW"
       },
       "zwave": {
         "manufacturerId": 89,
@@ -627,7 +629,7 @@
       ],
       "id": "ssr303",
       "name": {
-        "en": "SSR303"
+        "en": "SSR303 / ASR-ZW"
       },
       "zwave": {
         "manufacturerId": 89,

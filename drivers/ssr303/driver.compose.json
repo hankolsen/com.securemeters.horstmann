@@ -1,7 +1,7 @@
 {
   "id": "ssr303",
   "name": {
-    "en": "SSR303"
+    "en": "SSR303 / ASR-ZW"
   },
   "class": "socket",
   "capabilities": ["onoff"],
