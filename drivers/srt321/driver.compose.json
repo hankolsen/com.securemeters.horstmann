@@ -3,6 +3,9 @@
   "name": {
     "en": "SRT321"
   },
+  "energy": {
+    "batteries": ["AAA", "AAA"]
+  },
   "zwave": {
     "manufacturerId": 89,
     "productTypeId": [1],
