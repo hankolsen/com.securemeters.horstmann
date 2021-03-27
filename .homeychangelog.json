@@ -43,5 +43,8 @@
   },
   "0.2.14": {
     "en": "Update SSR303 driver"
+  },
+  "0.4.0": {
+    "en": "Battery device optimization, clean up of unused stuff and definitions, updates to SES302 and SSR303"
   }
 }
