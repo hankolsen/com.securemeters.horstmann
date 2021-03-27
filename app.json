@@ -19,12 +19,16 @@
     "en": [
       "horstmann",
       "secure",
+      "ses002",
+      "ses003",
       "ses202",
       "ses302",
       "ses303",
       "srt321",
       "srt323",
-      "ssr303"
+      "ssr303",
+      "HRT4-ZW",
+      "ASR-ZW"
     ]
   },
   "contributing": {
@@ -84,27 +88,62 @@
       },
       "zwave": {
         "manufacturerId": 89,
-        "productTypeId": [
-          13
-        ],
+        "productTypeId": 13,
         "productId": [
           2
         ],
-        "zwaveAllianceProductId": 1740,
+        "zwaveAllianceProductId": 1240,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1240/SES%20302%20and%20303%20TH%20Sensors%20User%20Installation%20Manual,%20(Secure%20Controls%20UK%20Ltd)%20BGX501-923-R02.pdf",
         "associationGroups": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
+          1
         ],
         "wakeUpInterval": 1800,
         "learnmode": {
           "image": "/drivers/ses302/assets/images/learnmode.jpg",
           "instruction": {
             "en": "Press the button, hold and release after 1 second.\nOn successful inclusion the LED will flash 2 times. The total process can take up to 20 seconds.\nIf the LED flashes 4-times this means that the inclusion process has failed."
+          }
+        }
+      },
+      "multiChannelNodes": {
+        "1": {
+          "class": "sensor",
+          "capabilities": [
+            "measure_temperature"
+          ],
+          "icon": "/drivers/ses302/assets/icon-multichannelnode-1.svg",
+          "name": {
+            "en": "MultiChannel device 1"
+          }
+        },
+        "2": {
+          "class": "sensor",
+          "capabilities": [
+            "measure_temperature"
+          ],
+          "icon": "/drivers/ses302/assets/icon-multichannelnode-2.svg",
+          "name": {
+            "en": "MultiChannel device 2"
+          }
+        },
+        "3": {
+          "class": "sensor",
+          "capabilities": [
+            "measure_temperature"
+          ],
+          "icon": "/drivers/ses302/assets/icon-multichannelnode-3.svg",
+          "name": {
+            "en": "MultiChannel device 3"
+          }
+        },
+        "4": {
+          "class": "sensor",
+          "capabilities": [
+            "measure_temperature"
+          ],
+          "icon": "/drivers/ses302/assets/icon-multichannelnode-4.svg",
+          "name": {
+            "en": "MultiChannel device 4"
           }
         }
       },
@@ -227,21 +266,14 @@
       },
       "zwave": {
         "manufacturerId": 89,
-        "productTypeId": [
-          13
-        ],
+        "productTypeId": 13,
         "productId": [
           3
         ],
-        "zwaveAllianceProductId": 1740,
+        "zwaveAllianceProductId": 1175,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1240/SES%20302%20and%20303%20TH%20Sensors%20User%20Installation%20Manual,%20(Secure%20Controls%20UK%20Ltd)%20BGX501-923-R02.pdf",
         "associationGroups": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
+          1
         ],
         "wakeUpInterval": 1800,
         "learnmode": {
@@ -403,7 +435,7 @@
       ],
       "id": "srt321",
       "name": {
-        "en": "SRT321"
+        "en": "SRT321 / HRT4-ZW"
       },
       "energy": {
         "batteries": [
@@ -413,14 +445,12 @@
       },
       "zwave": {
         "manufacturerId": 89,
-        "productTypeId": [
-          1
-        ],
+        "productTypeId": 1,
         "productId": [
           3,
           5
         ],
-        "zwaveAllianceProductId": 1740,
+        "zwaveAllianceProductId": 1563,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1563/SRT321%20User%20MAnual.pdf",
         "associationGroups": [
           1,
@@ -430,6 +460,38 @@
           5,
           6
         ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline"
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Thermostat Mode Control"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Add other device ID's here that you want to be controlled by the thermostat"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Battery Info"
+            }
+          },
+          "5": {
+            "hint": {
+              "en": "Thermostat Set Point"
+            }
+          },
+          "6": {
+            "hint": {
+              "en": "Air Temperature"
+            }
+          }
+        },
         "wakeUpInterval": 1800,
         "learnmode": {
           "image": "/drivers/srt321/assets/images/learnmode.svg",
@@ -524,22 +586,46 @@
       },
       "zwave": {
         "manufacturerId": 89,
-        "productTypeId": [
-          1
-        ],
+        "productTypeId": 1,
         "productId": [
           4
         ],
-        "zwaveAllianceProductId": 1740,
+        "zwaveAllianceProductId": 1241,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/products/1241",
         "associationGroups": [
           1,
           2,
           3,
           4,
-          5,
-          6
+          5
         ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline"
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Nodes to receive Thermostat Operating Statereports"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Nodes to receive unsolicited Low BatteryWarnings"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Nodes to receive unsolicited Thermostat SetPoint Reports"
+            }
+          },
+          "5": {
+            "hint": {
+              "en": "Unsolicited Sensor Multilevel Reports"
+            }
+          }
+        },
         "wakeUpInterval": 1800,
         "learnmode": {
           "image": "/drivers/srt323/assets/images/learnmode.svg",
@@ -621,21 +707,27 @@
       ],
       "id": "ssr303",
       "name": {
-        "en": "SSR303"
+        "en": "SSR303 / ASR-ZW"
       },
       "zwave": {
         "manufacturerId": 89,
-        "productTypeId": [
-          3
-        ],
+        "productTypeId": 3,
         "productId": [
+          1,
           5
         ],
-        "zwaveAllianceProductId": 1740,
+        "zwaveAllianceProductId": 1618,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1618/SSR%20303%20User%20Manual.pdf",
         "associationGroups": [
           1
         ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline"
+            }
+          }
+        },
         "wakeUpInterval": 1800,
         "learnmode": {
           "image": "/drivers/ssr303/assets/images/learnmode.svg",

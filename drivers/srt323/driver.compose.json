@@ -8,11 +8,38 @@
   },
   "zwave": {
     "manufacturerId": 89,
-    "productTypeId": [1],
+    "productTypeId": 1,
     "productId": [4],
-    "zwaveAllianceProductId": 1740,
+    "zwaveAllianceProductId": 1241,
     "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/products/1241",
-    "associationGroups": [1, 2, 3, 4, 5, 6],
+    "associationGroups": [1, 2, 3, 4, 5],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Lifeline"
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Nodes to receive Thermostat Operating Statereports"
+        }
+      },
+      "3": {
+        "hint": {
+          "en": "Nodes to receive unsolicited Low BatteryWarnings"
+        }
+      },
+      "4": {
+        "hint": {
+          "en": "Nodes to receive unsolicited Thermostat SetPoint Reports"
+        }
+      },
+      "5": {
+        "hint": {
+          "en": "Unsolicited Sensor Multilevel Reports"
+        }
+      }
+    },
     "wakeUpInterval": 1800,
     "learnmode": {
       "image": "{{driverAssetsPath}}/images/learnmode.svg",

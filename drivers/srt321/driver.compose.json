@@ -1,18 +1,50 @@
 {
   "id": "srt321",
   "name": {
-    "en": "SRT321"
+    "en": "SRT321 / HRT4-ZW"
   },
   "energy": {
     "batteries": ["AAA", "AAA"]
   },
   "zwave": {
     "manufacturerId": 89,
-    "productTypeId": [1],
+    "productTypeId": 1,
     "productId": [3, 5],
-    "zwaveAllianceProductId": 1740,
+    "zwaveAllianceProductId": 1563,
     "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1563/SRT321%20User%20MAnual.pdf",
     "associationGroups": [1, 2, 3, 4, 5, 6],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Lifeline"
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Thermostat Mode Control"
+        }
+      },
+      "3": {
+        "hint": {
+          "en": "Add other device ID's here that should be controlled by the thermostat"
+        }
+      },
+      "4": {
+        "hint": {
+          "en": "Battery Info"
+        }
+      },
+      "5": {
+        "hint": {
+          "en": "Thermostat Set Point"
+        }
+      },
+      "6": {
+        "hint": {
+          "en": "Air Temperature"
+        }
+      }
+    },
     "wakeUpInterval": 1800,
     "learnmode": {
       "image": "{{driverAssetsPath}}/images/learnmode.svg",
