@@ -13,12 +13,6 @@ class SES302Device extends ZwaveDevice {
         getOnStart: false,
       },
     });
-    this.registerCapability('measure_humidity', 'SENSOR_MULTILEVEL', {
-      getOpts: {
-        getOnOnline: true,
-        getOnStart: false,
-      },
-    });
   }
 
 }

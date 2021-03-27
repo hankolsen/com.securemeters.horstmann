@@ -56,8 +56,7 @@
       "class": "sensor",
       "capabilities": [
         "measure_battery",
-        "measure_temperature",
-        "measure_humidity"
+        "measure_temperature"
       ],
       "images": {
         "large": "/drivers/ses302/assets/images/large.jpg",
@@ -473,7 +472,7 @@
           },
           "3": {
             "hint": {
-              "en": "Add other device ID's here that you want to be controlled by the thermostat"
+              "en": "Add other device ID's here that should be controlled by the thermostat"
             }
           },
           "4": {

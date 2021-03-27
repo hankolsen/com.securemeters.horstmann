@@ -58,8 +58,7 @@
   },
   "capabilities": [
     "measure_battery",
-    "measure_temperature",
-    "measure_humidity"
+    "measure_temperature"
   ],
   "$extends": ["defaults"]
 }
