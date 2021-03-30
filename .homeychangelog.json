@@ -49,5 +49,8 @@
   },
   "0.5.0": {
     "en": "Update SSR303 Device"
+  },
+  "0.5.1": {
+    "en": "Update SSR303 reportParser"
   }
 }
