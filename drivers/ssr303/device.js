@@ -11,6 +11,13 @@ class SSR303Device extends ZwaveDevice {
       setParserV1: (value) => ({
         'Switch Value': value > 0 ? 255 : 0,
       }),
+      reportParserV1: (report) => {
+        if (!report || report.Value === undefined) {
+          return null;
+        }
+
+        return report.Value === 255;
+      },
     });
   }
 }
