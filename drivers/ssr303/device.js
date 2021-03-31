@@ -8,16 +8,14 @@ class SSR303Device extends ZwaveDevice {
     this.printNodeSummary();
 
     this.registerCapability('on_off', 'SWITCH_BINARY', {
+      setParser: (value) => ({
+        'Switch Value': value > 0 ? 255 : 0,
+      }),
+      reportParser: (report) => report.Value === 'on/enable',
       setParserV1: (value) => ({
         'Switch Value': value > 0 ? 255 : 0,
       }),
-      reportParserV1: (report) => {
-        if (!report || report.Value === undefined) {
-          return null;
-        }
-
-        return report.Value === 255;
-      },
+      reportParserV1: (report) => report.Value === 'on/enable',
     });
   }
 }
