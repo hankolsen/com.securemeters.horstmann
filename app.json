@@ -733,18 +733,6 @@
           "instruction": {
             "en": "Press and hold the network button until the ‘ON’ LED’s start flashing.\nThe SSR 303 has been added onto the network when the ‘OFF’ LED goes solid red."
           }
-        },
-        "multiChannelNodes": {
-          "2": {
-            "class": "socket",
-            "capabilities": [
-              "onoff"
-            ],
-            "icon": "/drivers/ssr303/assets/icon-multichannelnode-2.svg",
-            "name": {
-              "en": "SSR303 Channel 2"
-            }
-          }
         }
       }
     }
