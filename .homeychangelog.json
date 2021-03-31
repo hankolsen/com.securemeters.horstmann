@@ -52,5 +52,8 @@
   },
   "0.5.1": {
     "en": "Update SSR303 reportParser"
+  },
+  "0.5.2": {
+    "en": "Remove SSR303 MultiChannel"
   }
 }
