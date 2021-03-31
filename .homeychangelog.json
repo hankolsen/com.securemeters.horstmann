@@ -55,5 +55,8 @@
   },
   "0.5.2": {
     "en": "Remove SSR303 MultiChannel"
+  },
+  "0.5.3": {
+    "en": "More SSR303 changes"
   }
 }
