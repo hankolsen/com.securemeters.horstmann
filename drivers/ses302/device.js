@@ -3,7 +3,6 @@
 const { ZwaveDevice } = require('homey-zwavedriver');
 
 class SES302Device extends ZwaveDevice {
-
   async onNodeInit() {
     this.log('SES302Device Init');
     this.registerCapability('measure_battery', 'BATTERY');
@@ -14,7 +13,6 @@ class SES302Device extends ZwaveDevice {
       },
     });
   }
-
 }
 
 module.exports = SES302Device;

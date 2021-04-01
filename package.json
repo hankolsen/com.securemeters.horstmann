@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "homey app run",
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,8 @@
   "devDependencies": {
     "eslint": "^7.23.0",
     "eslint-config-athom": "^2.1.0",
-    "homey": "^2.13.1"
+    "homey": "^2.14.2",
+    "husky": "^6.0.0"
   },
   "dependencies": {
     "homey-zwavedriver": "^2.1.0"
