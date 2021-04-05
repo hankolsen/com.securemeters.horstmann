@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.horstmann",
-  "version": "0.4.0",
+  "version": "0.5.4",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
@@ -718,7 +718,9 @@
         "zwaveAllianceProductId": 1618,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1618/SSR%20303%20User%20Manual.pdf",
         "associationGroups": [
-          1
+          1,
+          2,
+          3
         ],
         "associationGroupsOptions": {
           "1": {
@@ -732,18 +734,6 @@
           "image": "/drivers/ssr303/assets/images/learnmode.svg",
           "instruction": {
             "en": "Press and hold the network button until the ‘ON’ LED’s start flashing.\nThe SSR 303 has been added onto the network when the ‘OFF’ LED goes solid red."
-          }
-        },
-        "multiChannelNodes": {
-          "2": {
-            "class": "socket",
-            "capabilities": [
-              "onoff"
-            ],
-            "icon": "/drivers/ssr303/assets/icon-multichannelnode-2.svg",
-            "name": {
-              "en": "SSR303 Channel 2"
-            }
           }
         }
       }
