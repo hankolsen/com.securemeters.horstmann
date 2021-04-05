@@ -1,4 +1,7 @@
 # Secure Meters
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![by Hank™](https://img.shields.io/badge/by-Hank%E2%84%A2-blue) ![Version](https://img.shields.io/github/v/release/hankolsen/com.securemeters.horstmann?style=flat-square) ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
 ![Github Banner](.github/img/banner.jpg)
@@ -31,3 +34,23 @@ If you find this useful you can always by me a coffee:
 ---
 
 :computer: Made with :metal: and :heart: by Hank 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.splitbrain.com"><img src="https://avatars.githubusercontent.com/u/11892641?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Darryl van der Peijl</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3ADarrylvanderPeijl" title="Bug reports">🐛</a> <a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=DarrylvanderPeijl" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
