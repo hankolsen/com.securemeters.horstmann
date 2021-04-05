@@ -58,5 +58,8 @@
   },
   "0.5.3": {
     "en": "More SSR303 changes"
+  },
+  "0.5.4": {
+    "en": "Fix faulty SSR303 capability"
   }
 }
