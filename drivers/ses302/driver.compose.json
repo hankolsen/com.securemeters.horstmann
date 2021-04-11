@@ -6,7 +6,6 @@
   "energy": {
     "batteries": ["AA", "AA"]
   },
-  "class": "sensor",
   "zwave": {
     "manufacturerId": 89,
     "productTypeId": 13,

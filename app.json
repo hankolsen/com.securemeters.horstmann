@@ -53,7 +53,7 @@
   },
   "drivers": [
     {
-      "class": "sensor",
+      "class": "thermostat",
       "capabilities": [
         "measure_battery",
         "measure_temperature"
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "class": "sensor",
+      "class": "thermostat",
       "capabilities": [
         "measure_battery",
         "measure_temperature",
