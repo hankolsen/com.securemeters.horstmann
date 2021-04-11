@@ -105,16 +105,6 @@
         }
       },
       "multiChannelNodes": {
-        "1": {
-          "class": "sensor",
-          "capabilities": [
-            "measure_temperature"
-          ],
-          "icon": "/drivers/ses302/assets/icon-multichannelnode-1.svg",
-          "name": {
-            "en": "MultiChannel device 1"
-          }
-        },
         "2": {
           "class": "sensor",
           "capabilities": [
@@ -282,16 +272,6 @@
           }
         },
         "multiChannelNodes": {
-          "1": {
-            "class": "sensor",
-            "capabilities": [
-              "measure_temperature"
-            ],
-            "icon": "/drivers/ses303/assets/icon-multichannelnode-1.svg",
-            "name": {
-              "en": "MultiChannel device 1"
-            }
-          },
           "2": {
             "class": "sensor",
             "capabilities": [
