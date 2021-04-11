@@ -64,5 +64,8 @@
   },
   "0.5.5": {
     "en": "Update SES302 and SES303"
+  },
+  "0.5.6": {
+    "en": "Change SES302/303 to thermostat"
   }
 }
