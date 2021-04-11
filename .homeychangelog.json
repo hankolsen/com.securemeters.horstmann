@@ -61,5 +61,8 @@
   },
   "0.5.4": {
     "en": "Fix faulty SSR303 capability"
+  },
+  "0.5.5": {
+    "en": "Update SES302 and SES303"
   }
 }
