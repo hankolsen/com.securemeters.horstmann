@@ -14,6 +14,15 @@
         "bug",
         "code"
       ]
+    },
+    {
+      "login": "arvid-r",
+      "name": "Arvid Rosen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2465432?v=4",
+      "profile": "https://github.com/arvid-r",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -21,5 +30,6 @@
   "projectOwner": "hankolsen",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "none"
 }

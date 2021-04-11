@@ -1,6 +1,6 @@
 # Secure Meters
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![by Hank™](https://img.shields.io/badge/by-Hank%E2%84%A2-blue) ![Version](https://img.shields.io/github/v/release/hankolsen/com.securemeters.horstmann?style=flat-square) ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
@@ -45,6 +45,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.splitbrain.com"><img src="https://avatars.githubusercontent.com/u/11892641?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Darryl van der Peijl</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3ADarrylvanderPeijl" title="Bug reports">🐛</a> <a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=DarrylvanderPeijl" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/arvid-r"><img src="https://avatars.githubusercontent.com/u/2465432?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arvid Rosen</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3Aarvid-r" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
