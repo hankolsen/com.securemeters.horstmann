@@ -1,8 +1,5 @@
 # Secure Meters
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-![by Hank™](https://img.shields.io/badge/by-Hank%E2%84%A2-blue) ![Version](https://img.shields.io/github/v/release/hankolsen/com.securemeters.horstmann?style=flat-square) ![MIT License](https://img.shields.io/badge/license-MIT-green)
+![by Hank™](https://img.shields.io/badge/by-Hank%E2%84%A2-blue) ![Version](https://img.shields.io/github/v/release/hankolsen/com.securemeters.horstmann?style=flat-square) ![MIT License](https://img.shields.io/badge/license-MIT-blue)
 
 ![Github Banner](.github/img/banner.jpg)
 
@@ -23,17 +20,6 @@ Adds support for Secure (previously Horstmann) devices to Homey.
 ## License
 This project is licensed under MIT - https://opensource.org/licenses/MIT
 
-## Author
-This project is Developed and Maintained by **[Hank de Lang](https://github.com/hankolsen)**
-
-## Support your ~~local~~ remote developer
-If you find this useful you can always by me a coffee:
-
-<a href="https://www.buymeacoffee.com/hankIV" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
-
----
-
-:computer: Made with :metal: and :heart: by Hank 
 
 ## Contributors ✨
 
@@ -45,6 +31,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.splitbrain.com"><img src="https://avatars.githubusercontent.com/u/11892641?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Darryl van der Peijl</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3ADarrylvanderPeijl" title="Bug reports">🐛</a> <a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=DarrylvanderPeijl" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/arvid-r"><img src="https://avatars.githubusercontent.com/u/2465432?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arvid Rosen</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3Aarvid-r" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/Rocodamelshe"><img src="https://avatars.githubusercontent.com/u/19249884?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rocodamelshe</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=Rocodamelshe" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
@@ -54,3 +42,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Author
+This project is Developed and Maintained by **[Hank de Lang](https://github.com/hankolsen)**
+
+## Support your ~~local~~ remote developer
+If you find this useful you can always by me a coffee:
+
+<a href="https://www.buymeacoffee.com/hankIV" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
+
+---
+
+:computer: Made with :metal: and :heart: by Hank 
