@@ -6,6 +6,7 @@
   "energy": {
     "batteries": ["AA", "AA"]
   },
+  "class": "sensor",
   "zwave": {
     "manufacturerId": 89,
     "productTypeId": 13,
@@ -13,6 +14,7 @@
     "zwaveAllianceProductId": 1240,
     "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1240/SES%20302%20and%20303%20TH%20Sensors%20User%20Installation%20Manual,%20(Secure%20Controls%20UK%20Ltd)%20BGX501-923-R02.pdf",
     "associationGroups": [1],
+    "associationGroupsMultiChannel": [2,3,4,5],
     "wakeUpInterval": 1800,
     "learnmode": {
       "image": "{{driverAssetsPath}}/images/learnmode.jpg",
@@ -21,35 +23,13 @@
       }
     }
   },
-  "multiChannelNodes": {
-    "2": {
-      "class": "sensor",
-      "capabilities": ["measure_temperature"],
-      "icon": "{{driverAssetsPath}}/icon-multichannelnode-2.svg",
-      "name": {
-        "en": "MultiChannel device 2"
-      }
-    },
-    "3": {
-      "class": "sensor",
-      "capabilities": ["measure_temperature"],
-      "icon": "{{driverAssetsPath}}/icon-multichannelnode-3.svg",
-      "name": {
-        "en": "MultiChannel device 3"
-      }
-    },
-    "4": {
-      "class": "sensor",
-      "capabilities": ["measure_temperature"],
-      "icon": "{{driverAssetsPath}}/icon-multichannelnode-4.svg",
-      "name": {
-        "en": "MultiChannel device 4"
-      }
-    }
-  },
   "capabilities": [
     "measure_battery",
-    "measure_temperature"
+    "measure_temperature",
+    "measure_temperature.external1",
+    "measure_temperature.external2",
+    "measure_temperature.external3",
+    "measure_temperature.external4"
   ],
   "$extends": ["defaults"]
 }
