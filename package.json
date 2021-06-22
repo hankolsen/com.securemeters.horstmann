@@ -26,10 +26,10 @@
     "all-contributors-cli": "^6.20.0",
     "eslint": "^7.24.0",
     "eslint-config-athom": "^2.1.0",
-    "homey": "^2.14.2",
+    "homey": "^2.19.4",
     "husky": "^6.0.0"
   },
   "dependencies": {
-    "homey-zwavedriver": "^2.1.0"
+    "homey-zwavedriver": "^2.1.4"
   }
 }
