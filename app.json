@@ -624,6 +624,61 @@
         "onoff"
       ],
       "images": {
+        "large": "/drivers/ssr302/assets/images/large.jpg",
+        "small": "/drivers/ssr302/assets/images/small.jpg"
+      },
+      "pair": [
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "id": "ssr302",
+      "name": {
+        "en": "SSR302"
+      },
+      "zwave": {
+        "manufacturerId": 89,
+        "productTypeId": 3,
+        "productId": [
+          2
+        ],
+        "zwaveAllianceProductId": 1619,
+        "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1619/SSR%20302%20User%20Manual.pdf",
+        "associationGroups": [
+          1,
+          2,
+          3
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline"
+            }
+          }
+        },
+        "wakeUpInterval": 1800,
+        "learnmode": {
+          "image": "/drivers/ssr302/assets/images/learnmode.svg",
+          "instruction": {
+            "en": "Press and hold both white buttons on the SSR 302 until the LED starts flashinggreen.\nThe SSR 302 has been added onto the network when the LED goes solid amber."
+          }
+        }
+      }
+    },
+    {
+      "class": "socket",
+      "capabilities": [
+        "onoff"
+      ],
+      "images": {
         "large": "/drivers/ssr303/assets/images/large.jpg",
         "small": "/drivers/ssr303/assets/images/small.jpg"
       },
