@@ -76,5 +76,8 @@
   },
   "0.6.0": {
     "en": "Added support for SSR302"
+  },
+  "0.6.1": {
+    "en": "Update readme"
   }
 }
