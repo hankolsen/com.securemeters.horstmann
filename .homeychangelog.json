@@ -82,5 +82,8 @@
   },
   "0.6.2": {
     "en": "Update pairing instructions for SSR302"
+  },
+  "0.6.3": {
+    "en": "Add multi channel support to SSR302"
   }
 }
