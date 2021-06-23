@@ -669,7 +669,7 @@
         "learnmode": {
           "image": "/drivers/ssr302/assets/images/learnmode.svg",
           "instruction": {
-            "en": "Press and hold both white buttons on the SSR 302 until the LED starts flashinggreen.\nThe SSR 302 has been added onto the network when the LED goes solid amber."
+            "en": "Press and hold both white buttons on the SSR 302 until the LED starts flashing red.\nAgain, press and hold both white buttons on the SSR 302 until the LED starts flashing green.\n The SSR 302 has been added onto the network when the LED goes solid amber."
           }
         }
       }
