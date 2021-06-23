@@ -2,22 +2,18 @@
 
 const { ZwaveDevice } = require('homey-zwavedriver');
 
-class SSR303Device extends ZwaveDevice {
+class SSR302Device extends ZwaveDevice {
   async onNodeInit() {
     this.log('SSR302Device Init');
-    this.printNodeSummary();
 
-    this.registerCapability('onoff', 'SWITCH_BINARY', {
-      setParser: (value) => ({
-        'Switch Value': value > 0 ? 255 : 0,
-      }),
-      reportParser: (report) => report.Value === 'on/enable',
-      setParserV1: (value) => ({
-        'Switch Value': value > 0 ? 255 : 0,
-      }),
-      reportParserV1: (report) => report.Value === 'on/enable',
-    });
+    this.registerCapability('onoff', 'SWITCH_BINARY');
+
+    if (this.node.MultiChannelNodes[2]) {
+      this.registerCapability('onoff.channel2', 'SWITCH_BINARY', {
+        multiChannelNodeId: 2,
+      });
+    }
   }
 }
 
-module.exports = SSR303Device;
+module.exports = SSR302Device;

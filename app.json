@@ -622,7 +622,8 @@
     {
       "class": "socket",
       "capabilities": [
-        "onoff"
+        "onoff",
+        "onoff.channel2"
       ],
       "images": {
         "large": "/drivers/ssr302/assets/images/large.jpg",
@@ -649,14 +650,15 @@
         "manufacturerId": 89,
         "productTypeId": 3,
         "productId": [
-          2
+          6
         ],
         "zwaveAllianceProductId": 1619,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1619/SSR%20302%20User%20Manual.pdf",
         "associationGroups": [
-          1,
-          2,
-          3
+          1
+        ],
+        "associationGroupsMultiChannel": [
+          2
         ],
         "associationGroupsOptions": {
           "1": {
