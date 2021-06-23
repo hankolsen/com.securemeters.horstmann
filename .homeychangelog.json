@@ -79,5 +79,8 @@
   },
   "0.6.1": {
     "en": "Update readme"
+  },
+  "0.6.2": {
+    "en": "Update pairing instructions for SSR302"
   }
 }
