@@ -622,8 +622,7 @@
     {
       "class": "socket",
       "capabilities": [
-        "onoff",
-        "onoff.channel2"
+        "onoff"
       ],
       "images": {
         "large": "/drivers/ssr302/assets/images/large.jpg",
@@ -657,14 +656,24 @@
         "associationGroups": [
           1
         ],
-        "associationGroupsMultiChannel": [
-          2
-        ],
         "associationGroupsOptions": {
           "1": {
             "hint": {
               "en": "Lifeline"
             }
+          }
+        },
+        "multiChannelNodes": {
+          "2": {
+            "class": "socket",
+            "capabilities": [
+              "onoff"
+            ],
+            "icon": "/drivers/ssr302/assets/icon.svg",
+            "name": {
+              "en": "SSR302 2"
+            },
+            "settings": []
           }
         },
         "wakeUpInterval": 1800,

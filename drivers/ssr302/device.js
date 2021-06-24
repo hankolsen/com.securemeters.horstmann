@@ -7,12 +7,6 @@ class SSR302Device extends ZwaveDevice {
     this.log('SSR302Device Init');
 
     this.registerCapability('onoff', 'SWITCH_BINARY');
-
-    if (this.node.MultiChannelNodes[2]) {
-      this.registerCapability('onoff.channel2', 'SWITCH_BINARY', {
-        multiChannelNodeId: 2,
-      });
-    }
   }
 }
 

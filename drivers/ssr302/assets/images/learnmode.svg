@@ -4,18 +4,61 @@
             font: bold 28px sans-serif;
         }
         .on-led {
-            animation: blink 2s ease infinite;
+            animation: blink 10s ease infinite;
         }
         @keyframes blink {
             0% {
                 stroke: black;
             }
+            5% {
+                stroke: black;
+            }
+            10% {
+                stroke: #FF4326
+            }
+            15% {
+                stroke: black;
+            }
+            20% {
+                stroke: #FF4326
+            }
+            25% {
+                stroke: black;
+            }
+            30% {
+                stroke: #FF4326
+            }
+            35% {
+                stroke: black;
+            }
+            45% {
+                stroke: black;
+            }
             50% {
                 stroke: #4F8A10;
             }
-            100% {
+            55% {
                 stroke: black;
             }
+            60% {
+                stroke: #4F8A10;
+            }
+            65% {
+                stroke: black;
+            }
+            70% {
+                stroke: #4F8A10;
+            }
+            75% {
+                stroke: black;
+            }
+            80% {
+                stroke: #FFBF00;
+            }            
+            100% {
+                stroke: #FFBF00;
+            }
+            
         }
     </style>
     <rect x="20" y="20" width="900" height="700" stroke="black" stroke-width="30" rx="30" fill="none"/>
