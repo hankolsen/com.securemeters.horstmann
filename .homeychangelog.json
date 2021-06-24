@@ -85,5 +85,8 @@
   },
   "0.6.3": {
     "en": "Add multi channel support to SSR302"
+  },
+  "0.6.4": {
+    "en": "Fix productId for SSR302"
   }
 }
