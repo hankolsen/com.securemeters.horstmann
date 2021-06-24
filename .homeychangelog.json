@@ -88,5 +88,8 @@
   },
   "0.6.4": {
     "en": "Fix productId for SSR302"
+  },
+  "0.6.5": {
+    "en": "Update SSR302"
   }
 }
