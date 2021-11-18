@@ -26,6 +26,7 @@
       "ses303",
       "srt321",
       "srt323",
+      "ssp302",
       "ssr302",
       "ssr303",
       "HRT4-ZW",
@@ -779,6 +780,84 @@
           }
         }
       ]
+    },
+    {
+      "class": "socket",
+      "capabilities": [
+        "onoff"
+      ],
+      "images": {
+        "large": "/drivers/ssp302/assets/images/large.jpg",
+        "small": "/drivers/ssp302/assets/images/small.jpg"
+      },
+      "pair": [
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "id": "ssp302",
+      "name": {
+        "en": "SSP302"
+      },
+      "zwave": {
+        "manufacturerId": 89,
+        "productTypeId": 17,
+        "productId": [
+          1,
+          2
+        ],
+        "zwaveAllianceProductId": 1257,
+        "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1257/SSP%20302%20User%20Manual%20for%20Web.pdf",
+        "associationGroups": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline"
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Power"
+            }
+          },
+          "3": {
+            "hint": {
+              "en": "Electrical Parameter"
+            }
+          },
+          "4": {
+            "hint": {
+              "en": "Relay Status"
+            }
+          },
+          "5": {
+            "hint": {
+              "en": "Time"
+            }
+          }
+        },
+        "wakeUpInterval": 1800,
+        "learnmode": {
+          "image": "/drivers/ssp302/assets/images/learnmode.svg",
+          "instruction": {
+            "en": "Press and hold the button on SSP 302 for 4 to 7 seconds then release.\nThe network status LED will start flashing.\nOn successful inclusion the LED will turn off."
+          }
+        }
+      }
     },
     {
       "class": "socket",
