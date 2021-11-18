@@ -24,12 +24,12 @@
   ],
   "devDependencies": {
     "all-contributors-cli": "^6.20.0",
-    "eslint": "^7.24.0",
-    "eslint-config-athom": "^2.1.0",
-    "homey": "^2.19.4",
-    "husky": "^6.0.0"
+    "eslint": "^8.2.0",
+    "eslint-config-athom": "^3.0.1",
+    "homey": "^2.23.7",
+    "husky": "^7.0.4"
   },
   "dependencies": {
-    "homey-zwavedriver": "^2.1.4"
+    "homey-zwavedriver": "^2.1.8"
   }
 }
