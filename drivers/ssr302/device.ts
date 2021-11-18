@@ -1,6 +1,4 @@
-'use strict';
-
-const { ZwaveDevice } = require('homey-zwavedriver');
+import ZwaveDevice from 'homey-zwavedriver';
 
 class SSR302Device extends ZwaveDevice {
   async onNodeInit() {

@@ -1,6 +1,4 @@
-'use strict';
-
-const Homey = require('homey');
+import Homey from 'homey';
 
 class SecureHorstmannApp extends Homey.App {
   /**

@@ -1,10 +1,8 @@
-'use strict';
+import ZwaveDevice from 'homey-zwavedriver';
 
-const { ZwaveDevice } = require('homey-zwavedriver');
-
-class SRT323Device extends ZwaveDevice {
+class SRT321Device extends ZwaveDevice {
   async onNodeInit() {
-    this.log('SRT323Device Init');
+    this.log('SRT321Device Init');
     this.registerCapability('measure_battery', 'BATTERY');
     this.registerCapability('measure_temperature', 'SENSOR_MULTILEVEL', {
       getOpts: {
@@ -24,4 +22,4 @@ class SRT323Device extends ZwaveDevice {
   }
 }
 
-module.exports = SRT323Device;
+module.exports = SRT321Device;

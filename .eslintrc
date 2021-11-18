@@ -2,6 +2,9 @@
   "extends": "athom",
   "rules": {
     "arrow-parens": ["error", "always"],
-    "padded-blocks": ["error", "never"]
+    "padded-blocks": ["error", "never"],
+    "strict": "off",
+    "node/no-unsupported-features/es-syntax": "off",
+    "node/no-unpublished-import": "off"
   }
 }
