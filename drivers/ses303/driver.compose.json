@@ -21,6 +21,38 @@
       "instruction": {
         "en": "Press the button, hold and release after 1 second.\nOn successful inclusion the LED will flash 2 times. The total process can take up to 20 seconds.\nIf the LED flashes 4-times this means that the inclusion process has failed."
       }
+    },
+    "multiChannelNodes": {
+      "2": {
+        "class": "sensor",
+        "capabilities": [
+          "measure_temperature"
+        ],
+        "icon": "{{driverAssetsPath}}/icon-multichannelnode-2.svg",
+        "name": {
+          "en": "MultiChannel device 2"
+        }
+      },
+      "3": {
+        "class": "sensor",
+        "capabilities": [
+          "measure_temperature"
+        ],
+        "icon": "{{driverAssetsPath}}/icon-multichannelnode-3.svg",
+        "name": {
+          "en": "MultiChannel device 3"
+        }
+      },
+      "4": {
+        "class": "sensor",
+        "capabilities": [
+          "measure_temperature"
+        ],
+        "icon": "{{driverAssetsPath}}/icon-multichannelnode-4.svg",
+        "name": {
+          "en": "MultiChannel device 4"
+        }
+      }
     }
   },
   "capabilities": [
