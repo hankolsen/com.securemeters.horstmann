@@ -91,5 +91,8 @@
   },
   "0.6.5": {
     "en": "Update SSR302"
+  },
+  "0.7.0": {
+    "en": "Added back Multi Channel Nodes for SES303"
   }
 }
