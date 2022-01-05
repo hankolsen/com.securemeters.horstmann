@@ -35,6 +35,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/arvid-r"><img src="https://avatars.githubusercontent.com/u/2465432?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arvid Rosen</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3Aarvid-r" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/Rocodamelshe"><img src="https://avatars.githubusercontent.com/u/19249884?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rocodamelshe</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=Rocodamelshe" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/jmdraper"><img src="https://avatars.githubusercontent.com/u/20240325?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jmdraper</b></sub></a><br /><a href="#ideas-jmdraper" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/theSequencer82"><img src="https://avatars.githubusercontent.com/u/34631732?v=4?s=100" width="100px;" alt=""/><br /><sub><b>theSequencer82</b></sub></a><br /><a href="#ideas-theSequencer82" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
