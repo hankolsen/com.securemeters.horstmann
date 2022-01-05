@@ -91,5 +91,8 @@
   },
   "0.6.5": {
     "en": "Update SSR302"
+  },
+  "0.7.1": {
+    "en": "Name external temperature sensors"
   }
 }

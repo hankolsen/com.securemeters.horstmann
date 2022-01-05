@@ -32,5 +32,31 @@
     "measure_temperature.external4",
     "measure_humidity"
   ],
+  "capabilitiesOptions": {
+    "measure_temperature.external1": {
+      "title": {
+        "en": "External temperature sensor 1",
+        "nl": "Externe temperatuur sensor 1"
+      }
+    },
+    "measure_temperature.external2": {
+      "title": {
+        "en": "External temperature sensor 2",
+        "nl": "Externe temperatuur sensor 2"
+      }
+    },
+    "measure_temperature.external3": {
+      "title": {
+        "en": "External temperature sensor 3",
+        "nl": "Externe temperatuur sensor 3"
+      }
+    },
+    "measure_temperature.external4": {
+      "title": {
+        "en": "External temperature sensor 4",
+        "nl": "Externe temperatuur sensor 4"
+      }
+    }
+  },
   "$extends": ["defaults"]
 }
