@@ -3,3 +3,7 @@ node_modules/
 .idea
 *.iml
 build
+
+
+# Added by Homey CLI
+/.homeybuild/
