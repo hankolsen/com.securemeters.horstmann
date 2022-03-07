@@ -61,6 +61,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "SPAeotec",
+      "name": "SPAeotec",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62385464?v=4",
+      "profile": "https://github.com/SPAeotec",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
