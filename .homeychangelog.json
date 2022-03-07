@@ -94,5 +94,8 @@
   },
   "0.7.1": {
     "en": "Name external temperature sensors"
+  },
+  "0.8.0": {
+    "en": "Fix missing id for SSR 302"
   }
 }

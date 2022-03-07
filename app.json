@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.horstmann",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
@@ -675,7 +675,8 @@
         "manufacturerId": 89,
         "productTypeId": 3,
         "productId": [
-          2
+          2,
+          6
         ],
         "zwaveAllianceProductId": 1619,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1619/SSR%20302%20User%20Manual.pdf",
