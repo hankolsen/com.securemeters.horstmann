@@ -21,6 +21,8 @@ Adds support for Secure (previously Horstmann) devices to Homey.
 ## License
 This project is licensed under MIT - https://opensource.org/licenses/MIT
 
+## Photo
+Cover photo by [Max Vakhtbovych](https://www.pexels.com/photo/cozy-living-room-with-comfortable-sofa-and-minimalist-furniture-6283961/)
 
 ## Contributors ✨
 
