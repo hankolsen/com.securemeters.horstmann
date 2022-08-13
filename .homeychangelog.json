@@ -97,5 +97,8 @@
   },
   "0.8.0": {
     "en": "Fix missing id for SSR 302"
+  },
+  "0.9.0": {
+    "en": "Add support for SCS 317"
   }
 }
