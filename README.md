@@ -15,6 +15,7 @@ Adds support for Secure (previously Horstmann) devices to Homey.
 - [SRT 323 Thermostat](https://products.z-wavealliance.org/products/1241)
 - [SSR 302 Dual Channel Power Switch](https://products.z-wavealliance.org/products/1619) - [Manual](https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1619/SSR%20302%20User%20Manual.pdf)
 - [SSR 303 / ASR-ZW Power Switch](https://products.z-wavealliance.org/products/1618) - [Manual](https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1618/SSR%20303%20User%20Manual.pdf)
+- [SCS 317 / C17-ZW Programmable Room Thermostat](https://products.z-wavealliance.org/products/864)
 
 
 ## License

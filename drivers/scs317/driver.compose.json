@@ -1,0 +1,35 @@
+{
+  "id": "scs317",
+  "name": {
+    "en": "SCS317"
+  },
+  "energy": {
+    "batteries": ["AA", "AA"]
+  },
+  "zwave": {
+    "manufacturerId": 89,
+    "productTypeId": 4,
+    "productId": [1],
+    "associationGroups": [1, 2],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Lifeline"
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Thermostat Mode Control"
+        }
+      }
+    },
+    "wakeUpInterval": 1800,
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/images/icon.svg",
+      "instruction": {
+        "en": "2 x Enter to start menu;\nUse right arrow key and open menu 'Setup'\nUse right arrow key and open menu 'Set up Z-Wave'\nUse right arrow key and select 'Learn'"
+      }
+    }
+  },
+  "$extends": ["defaults"]
+}
