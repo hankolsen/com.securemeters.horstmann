@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 960">
+    <style>text { font: bold 46px sans-serif; }</style>
+    <rect x="20" y="20" width="900" height="700" stroke="black" stroke-width="30" rx="30" fill="none" />
+    <rect x="150" y="100" width="650" height="480" stroke="black" stroke-width="10" fill="none"  rx="20" />
+    <rect x="200" y="130" width="550" height="280" stroke="black" stroke-width="10" fill="none"  />
+    <circle cx="250" cy="490" r="50" fill="none" stroke="black" stroke-width="20" />
+    <circle cx="400" cy="490" r="50" fill="none" stroke="black" stroke-width="20" />
+    <circle cx="550" cy="490" r="50" fill="none" stroke="black" stroke-width="20" />
+    <circle cx="700" cy="490" r="50" fill="none" stroke="black" stroke-width="20" />
+    <text x="390" y="650">SCS317</text>
+</svg>
