@@ -27,7 +27,7 @@
     "learnmode": {
       "image": "{{driverAssetsPath}}/images/icon.svg",
       "instruction": {
-        "en": "2 x Enter to start menu;\nUse right arrow key and open menu 'Setup'\nUse right arrow key and open menu 'Set up Z-Wave'\nUse right arrow key and select 'Learn'"
+        "en": "2 x Enter to start menu;\nUse right arrow key and open menu 'Setup'\nUse right arrow key and open menu 'Set up Z-Wave'\nUse right arrow key and select 'Learn'\nEnsure it says 'Network data received'\nAfter that, set the unit to learn mode again."
       }
     }
   },
