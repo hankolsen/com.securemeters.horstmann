@@ -6,6 +6,10 @@
   "class": "socket",
   "capabilities": ["onoff", "measure_temperature"],
   "connectivity": ["zwave"],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.jpg",
+    "large": "{{driverAssetsPath}}/images/large.jpg"
+  },
   "zwave": {
     "manufacturerId": 89,
     "productTypeId": [16],
