@@ -449,8 +449,8 @@
         "zwave"
       ],
       "images": {
-        "small": "/drivers/sir321/assets/images/small.png",
-        "large": "/drivers/sir321/assets/images/large.png"
+        "small": "/drivers/sir321/assets/images/small.jpg",
+        "large": "/drivers/sir321/assets/images/large.jpg"
       },
       "zwave": {
         "manufacturerId": 89,
