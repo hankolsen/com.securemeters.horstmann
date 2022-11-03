@@ -23,13 +23,13 @@
     "home automation"
   ],
   "devDependencies": {
-    "all-contributors-cli": "^6.20.0",
-    "eslint": "^8.2.0",
-    "eslint-config-athom": "^3.0.1",
-    "homey": "^2.23.7",
-    "husky": "^7.0.4"
+    "all-contributors-cli": "^6.24.0",
+    "eslint": "^8.26.0",
+    "eslint-config-athom": "^3.1.1",
+    "homey": "^2.30.7",
+    "husky": "^8.0.1"
   },
   "dependencies": {
-    "homey-zwavedriver": "^2.1.8"
+    "homey-zwavedriver": "^2.1.10"
   }
 }
