@@ -32,15 +32,20 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://github.com/hankolsen"><img src="https://avatars.githubusercontent.com/u/1008390?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hankolsen</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=hankolsen" title="Code">💻</a> <a href="#design-hankolsen" title="Design">🎨</a> <a href="#ideas-hankolsen" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://www.splitbrain.com"><img src="https://avatars.githubusercontent.com/u/11892641?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Darryl van der Peijl</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3ADarrylvanderPeijl" title="Bug reports">🐛</a> <a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=DarrylvanderPeijl" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/arvid-r"><img src="https://avatars.githubusercontent.com/u/2465432?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arvid Rosen</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3Aarvid-r" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/Rocodamelshe"><img src="https://avatars.githubusercontent.com/u/19249884?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rocodamelshe</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=Rocodamelshe" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/jmdraper"><img src="https://avatars.githubusercontent.com/u/20240325?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jmdraper</b></sub></a><br /><a href="#ideas-jmdraper" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/theSequencer82"><img src="https://avatars.githubusercontent.com/u/34631732?v=4?s=100" width="100px;" alt=""/><br /><sub><b>theSequencer82</b></sub></a><br /><a href="#ideas-theSequencer82" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/SPAeotec"><img src="https://avatars.githubusercontent.com/u/62385464?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SPAeotec</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3ASPAeotec" title="Bug reports">🐛</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/hankolsen"><img src="https://avatars.githubusercontent.com/u/1008390?v=4?s=100" width="100px;" alt="hankolsen"/><br /><sub><b>hankolsen</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=hankolsen" title="Code">💻</a> <a href="#design-hankolsen" title="Design">🎨</a> <a href="#ideas-hankolsen" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center"><a href="https://www.splitbrain.com"><img src="https://avatars.githubusercontent.com/u/11892641?v=4?s=100" width="100px;" alt="Darryl van der Peijl"/><br /><sub><b>Darryl van der Peijl</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3ADarrylvanderPeijl" title="Bug reports">🐛</a> <a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=DarrylvanderPeijl" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/arvid-r"><img src="https://avatars.githubusercontent.com/u/2465432?v=4?s=100" width="100px;" alt="Arvid Rosen"/><br /><sub><b>Arvid Rosen</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3Aarvid-r" title="Bug reports">🐛</a></td>
+      <td align="center"><a href="https://github.com/Rocodamelshe"><img src="https://avatars.githubusercontent.com/u/19249884?v=4?s=100" width="100px;" alt="Rocodamelshe"/><br /><sub><b>Rocodamelshe</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/commits?author=Rocodamelshe" title="Tests">⚠️</a></td>
+      <td align="center"><a href="https://github.com/jmdraper"><img src="https://avatars.githubusercontent.com/u/20240325?v=4?s=100" width="100px;" alt="jmdraper"/><br /><sub><b>jmdraper</b></sub></a><br /><a href="#ideas-jmdraper" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center"><a href="https://github.com/theSequencer82"><img src="https://avatars.githubusercontent.com/u/34631732?v=4?s=100" width="100px;" alt="theSequencer82"/><br /><sub><b>theSequencer82</b></sub></a><br /><a href="#ideas-theSequencer82" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center"><a href="https://github.com/SPAeotec"><img src="https://avatars.githubusercontent.com/u/62385464?v=4?s=100" width="100px;" alt="SPAeotec"/><br /><sub><b>SPAeotec</b></sub></a><br /><a href="https://github.com/hankolsen/com.securemeters.horstmann/issues?q=author%3ASPAeotec" title="Bug reports">🐛</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/Flush1963"><img src="https://avatars.githubusercontent.com/u/117358003?v=4?s=100" width="100px;" alt="Flush1963"/><br /><sub><b>Flush1963</b></sub></a><br /><a href="#ideas-Flush1963" title="Ideas, Planning, & Feedback">🤔</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
