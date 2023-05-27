@@ -764,21 +764,7 @@
             "name": {
               "en": "SSR302 2"
             },
-            "settings": [
-              {
-                "id": "poll_frequency",
-                "type": "number",
-                "label": {
-                  "en": "Poll frequency"
-                },
-                "value": 30,
-                "min": 10,
-                "max": 3600,
-                "units": {
-                  "en": "seconds"
-                }
-              }
-            ]
+            "settings": []
           }
         },
         "wakeUpInterval": 1800,
@@ -787,6 +773,19 @@
           "instruction": {
             "en": "Press and hold both white buttons on the SSR 302 until the LED starts flashing red.\nAgain, press and hold both white buttons on the SSR 302 until the LED starts flashing green.\n The SSR 302 has been added onto the network when the LED goes solid amber."
           }
+        }
+      },
+      "settings": {
+        "id": "poll_frequency",
+        "type": "number",
+        "label": {
+          "en": "Polling interval"
+        },
+        "value": 30,
+        "min": 10,
+        "max": 3600,
+        "units": {
+          "en": "seconds"
         }
       }
     },
