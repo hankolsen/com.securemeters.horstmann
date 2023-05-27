@@ -12,7 +12,7 @@ class SSR302Device extends ZwaveDevice {
         getOnStart: true, // get the initial value on app start (only use for non-battery devices)
         // getOnOnline: true, // use only for battery devices
         pollInterval: 'poll_frequency', // poll every 30s
-        pollMultiplication: 1000
+        pollMultiplication: 1000,
       },
       getParserV3: (value, opts) => ({}),
     });
