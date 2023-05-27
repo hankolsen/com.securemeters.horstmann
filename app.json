@@ -743,7 +743,8 @@
         ],
         "zwaveAllianceProductId": 1619,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1619/SSR%20302%20User%20Manual.pdf",
-        "associationGroups": [
+        "associationGroups": [],
+        "associationGroupsMultiChannel": [
           1
         ],
         "associationGroupsOptions": {
