@@ -106,5 +106,8 @@
   },
   "0.9.2": {
     "en": "Update learn instructions for SCS 317"
+  },
+  "0.10.0": {
+    "en": "Add support for SIR 321"
   }
 }

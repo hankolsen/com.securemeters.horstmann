@@ -1,0 +1,56 @@
+{
+  "id": "sir321",
+  "name": {
+    "en": "SIR321"
+  },
+  "class": "socket",
+  "capabilities": ["onoff", "measure_temperature"],
+  "connectivity": ["zwave"],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.jpg",
+    "large": "{{driverAssetsPath}}/images/large.jpg"
+  },
+  "zwave": {
+    "manufacturerId": 89,
+    "productTypeId": [16],
+    "productId": [2, 3, 4],
+    "zwaveAllianceProductId": 1012,
+    "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=product_documents/4045/SIR321%20BGX501-867%20R07.pdf",
+    "associationGroups": [1, 2, 3],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Lifeline"
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Schedule Report"
+        }
+      },
+      "3": {
+        "hint": {
+          "en": "Air Temperature"
+        }
+      }
+    },
+    "learnmode": {
+      "instruction": {
+        "en": "Press and hold the pairing button on the back of the unit\n When RF LED starts flashing, relase the button.\n On successful addition, the LED will stop flashing."
+      }
+    }
+  },
+  "pair": [
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_devices"
+      }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ]
+}
