@@ -6,7 +6,15 @@ class SSR302Device extends ZwaveDevice {
   async onNodeInit() {
     this.log('SSR302Device Init');
 
-    this.registerCapability('onoff', 'SWITCH_BINARY');
+    this.registerCapability('onoff', 'SWITCH_BINARY', {
+      getOpts: {
+        // Only use these options when a device doesn't automatically report its values
+        getOnStart: true, // get the initial value on app start (only use for non-battery devices)
+        // getOnOnline: true, // use only for battery devices
+        pollInterval: 30000, // poll every 30s
+      },
+      getParserV3: (value, opts) => ({}),
+    });
   }
 }
 
