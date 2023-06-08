@@ -1,0 +1,12 @@
+
+[
+    {
+    "id": "poll_frequency",
+    "type": "number",
+    "label": { "en": "Polling interval" },
+    "value": 30,
+    "min": 10,
+    "max": 3600,
+    "units": { "en": "seconds" }
+  }
+]

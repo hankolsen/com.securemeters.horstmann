@@ -743,7 +743,8 @@
         ],
         "zwaveAllianceProductId": 1619,
         "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/1619/SSR%20302%20User%20Manual.pdf",
-        "associationGroups": [
+        "associationGroups": [],
+        "associationGroupsMultiChannel": [
           1
         ],
         "associationGroupsOptions": {
@@ -773,7 +774,22 @@
             "en": "Press and hold both white buttons on the SSR 302 until the LED starts flashing red.\nAgain, press and hold both white buttons on the SSR 302 until the LED starts flashing green.\n The SSR 302 has been added onto the network when the LED goes solid amber."
           }
         }
-      }
+      },
+      "settings": [
+        {
+          "id": "poll_frequency",
+          "type": "number",
+          "label": {
+            "en": "Polling interval"
+          },
+          "value": 30,
+          "min": 10,
+          "max": 3600,
+          "units": {
+            "en": "seconds"
+          }
+        }
+      ]
     },
     {
       "class": "socket",
