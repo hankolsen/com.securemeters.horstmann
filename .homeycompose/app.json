@@ -1,6 +1,6 @@
 {
   "id": "com.horstmann",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
@@ -25,6 +25,7 @@
       "ses303",
       "srt321",
       "srt323",
+      "ssp302",
       "ssr302",
       "ssr303",
       "HRT4-ZW",
