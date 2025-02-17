@@ -505,7 +505,28 @@
           "template": "add_devices"
         }
       ],
-      "settings": []
+      "settings": [
+        {
+          "id": "sensor_temperature_report_interval",
+          "type": "number",
+          "value": 30,
+          "zwave": {
+            "index": 3,
+            "size": 2,
+            "signed": false
+          },
+          "attr": {
+            "min": 30,
+            "max": 32767
+          },
+          "label": {
+            "en": "Temperature Reporting Interval (seconds)"
+          },
+          "hint": {
+            "en": "Configure the time interval for temperature reporting.\nValue in seconds.\n30 is disabled, valid interval 31 to 32767 seconds.\n"
+          }
+        }
+      ]
     },
     {
       "class": "thermostat",
